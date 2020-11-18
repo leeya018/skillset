@@ -1,0 +1,13 @@
+.filter{
+    margin-bottom: 3em;
+}
+.filter>input{
+    font-family: FontAwesome;
+    width: 30%;
+    margin: .3em;
+    height: 2em;
+}
+i{
+    position: relative;
+    right: 1em;
+}

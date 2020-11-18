@@ -1,0 +1,29 @@
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.comments-item{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 1em;
+}
+.comments-item>div{
+    display: flex;
+    flex-direction: column;
+}
+.comments-item>div>span{
+    padding:.2em;
+    text-align-last: start;
+}
+.comments-item>div>.email{
+    font-weight: bolder;
+}
+.img{
+    margin-right: 1em;
+    border-radius: .75rem;
+    height: 5em;
+}
